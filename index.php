@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>NAILATI TOYYIBAH</h1>
+    <h1>DIGIDES<h1>
 </body>
 </html>
