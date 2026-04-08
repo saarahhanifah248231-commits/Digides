@@ -13,7 +13,7 @@
         }
         body {
             background-color: #c4a484;
-            background-image: url('batik f.png');
+            background-image: url('logo.png');
             display: flex;
             height: 100vh;
             overflow: hidden;
