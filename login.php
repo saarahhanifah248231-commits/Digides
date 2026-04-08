@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<title>Login E-voting</title>
+<title>Login Digides</title>
 <link rel="stylesheet" href="style.css">
 <style>
     body{
