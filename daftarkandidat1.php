@@ -138,7 +138,7 @@
 
     <div class="sidebar">
         <div class="logo">
-        <img src="logo.png" width="250" alt="">
+        <img src="batik f.png" width="250" alt="">
     </div>
         
         <button class="nav-btn">Voting</button>
