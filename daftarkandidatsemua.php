@@ -113,9 +113,6 @@
             box-shadow: 0 6px 15px rgba(0,0,0,0.15);
             transition: transform 0.3s, border 0.3s;
         }
-        .card-highlight {
-            border: 3px solid #3498db;
-        }
         .candidate-card:hover {
             transform: translateY(-5px);
         }
