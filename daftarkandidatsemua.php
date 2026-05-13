@@ -114,7 +114,7 @@
             transition: transform 0.3s, border 0.3s;
         }
         .card-highlight {
-            border: 3px solid #3498db;
+            border: 4px solid #B18258;
         }
         .candidate-card:hover {
             transform: translateY(-5px);
@@ -171,7 +171,7 @@
         <h1 class="title">Daftar Kandidat</h1>
 
         <div class="candidate-wrapper">
-            <div class="candidate-card">
+        <div class="candidate-card card-highlight">
                 <p class="candidate-name">Agus Setiawan</p>
                 <img src="fotokades.png" alt="Foto Agus" class="candidate-photo">
                 <button class="btn-detail">Detail</button>
@@ -183,7 +183,7 @@
                 <button class="btn-detail">Detail</button>
             </div>
 
-            <div class="candidate-card">
+            <div class="candidate-card card-highlight">
                 <p class="candidate-name">Panggih Wibowo</p>
                 <img src="fotokades3.png" alt="Foto Panggih" class="candidate-photo">
                 <button class="btn-detail">Detail</button>
