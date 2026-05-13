@@ -132,7 +132,7 @@
 
     <div class="sidebar">
         <div class="logo">
-        <img src="logo.png" width="250" alt="">
+        <img src="logo.png" width="200" alt="">
     </div>
         
         <button class="nav-btn">Voting</button>
