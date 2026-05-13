@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daftar Kandidat Digides</title>
+    <title>Detail Kandidat Satu</title>
     <style>
         {
             margin: 0;
@@ -13,7 +13,7 @@
         }
         body {
             background-color: #c4a484;
-            background-image: url('logo.png');
+            background-image: url('batik f.png');
             display: flex;
             height: 100vh;
             overflow: hidden;
@@ -45,7 +45,7 @@
             color: #5d4037; 
         }
         .nav-btn {
-            background-color: #a67c52;
+            background-color: #986A41;
             color: white;
             border: none;
             padding: 10px;
@@ -57,7 +57,7 @@
         }
         .btn-logout {
             margin-top: auto;
-            background-color: #8d6e63;
+            background-color: #986A41;
             color: white;
             border: none;
             padding: 8px;
@@ -138,7 +138,7 @@
 
     <div class="sidebar">
         <div class="logo">
-        <img src="batik f.png" width="250" alt="">
+        <img src="logo.png" width="250" alt="">
     </div>
         
         <button class="nav-btn">Voting</button>

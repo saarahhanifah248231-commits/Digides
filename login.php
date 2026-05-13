@@ -36,7 +36,7 @@
     h1{
         color: #8a5a2b;
         margin-bottom: 64px;
-        font-size: 64px;
+        font-size: 40px;
     }
 
     .form{
@@ -47,12 +47,12 @@
     .input-group{
         display: flex;
         align-items: center;
-        justify-content: center;
-        margin: 25px 0;
+        margin: 15px 0;
+        width: 100%;
     }
 
     label{
-        width: 120px;
+        width: 100px;
         text-align: right;
         margin-right: 10px;
         font-size: 20px;
@@ -66,20 +66,21 @@
 
     input{
         padding: 12px;
+        flex: 1;
         width: 200px;
-        border: none;
+        border: 1px solid #ccc;
         background: #ffff;
-        border-radius: 3px;
+        border-radius: 5px;
+        font-size: 16px;
     }
 
     button{
-        margin-top: 30px;
         margin: 25px 0;
         width: 100%;
-        border: 20px;
+        border: none;
         border-radius: 50px;
         background: #eee;
-        font-size: 20px;
+        font-size: 12px;
         color: #8a5a2b;
         cursor: pointer;
     }
@@ -104,7 +105,7 @@
     <h1>Login E-voting Kepala <br> Desa Manggis</h1>
 
     <div class="form">
-
+        <form class="form" action="aksi login.php" method="POST">
         <div class="input-group">
             <label>Username</label>
             <i class="fa fa-user icon"></i>
