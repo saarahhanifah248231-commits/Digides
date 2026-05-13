@@ -173,19 +173,19 @@
         <div class="candidate-wrapper">
             <div class="candidate-card">
                 <p class="candidate-name">Agus Setiawan</p>
-                <img src="agus.png" alt="Foto Agus" class="candidate-photo">
+                <img src="fotokades.png" alt="Foto Agus" class="candidate-photo">
                 <button class="btn-detail">Detail</button>
             </div>
 
             <div class="candidate-card card-highlight">
                 <p class="candidate-name">Joko Darmanto</p>
-                <img src="joko.png" alt="Foto Joko" class="candidate-photo">
+                <img src="fotokades2.jpeg" alt="Foto Joko" class="candidate-photo">
                 <button class="btn-detail">Detail</button>
             </div>
 
             <div class="candidate-card">
                 <p class="candidate-name">Panggih Wibowo</p>
-                <img src="panggih.png" alt="Foto Panggih" class="candidate-photo">
+                <img src="fotokades3.png" alt="Foto Panggih" class="candidate-photo">
                 <button class="btn-detail">Detail</button>
             </div>
         </div>
