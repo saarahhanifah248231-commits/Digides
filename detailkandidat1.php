@@ -33,12 +33,6 @@
             font-weight: bold; 
             font-size: 20px; 
         }
-        .digi { 
-            color: #5bc0de; 
-        }
-        .des { 
-            color: #4b4b4b; 
-        }
         .sub-logo { 
             font-size: 8px; 
             display: block; 
