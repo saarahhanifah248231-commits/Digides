@@ -1,27 +1,51 @@
 <?php
 
-$email = $_POST['Username'];
-$password = $_POST['Password'];
-
+// memanggil koneksi di config.php 
 include "./config.php";
 
-$query = "SELECT * FROM users WHERE email='".$_POST['Username']."'";
+// echo $_POST['username'];
+// echo "<br />";
+// echo $_POST['password'];
 
+// exit();
+// memanggil koneksi di config.php 
+// include "./config.php";
+
+// echo $_POST['input_email'];
+// echo "<br />";
+// echo $_POST['input_password'];
+// memanggil koneksi di config.php 
+// include "./config.php";
+
+// query untuk mengambil data dari user dengan NISN = $_POST['input_NISN']
+$query = "SELECT * FROM users WHERE username='".$_POST['name']."'";
+
+// exit();
+// menjalankan query dengan koneksi dari $conn
+// result di sini akan digunakan untuk memanggil data
 $result = $conn->query($query);
 
+// exit();
+// cek jumlah data menggunakan $result
+// echo "jumlah data: ";
+// echo $result->num_rows;
+// echo "<br /> <br />";
 
+// exit();
+// cek jumlah data menggunakan $result
+
+// memanggil data dengan $result
 $row = $result->fetch_assoc();
 
+// exit();
 
 if ($result->num_rows == 0) {
-}
-
-if ($result->num_rows == 0) {
-  
+  // jika num_rows = 0 berarti tidak ada data yang ditemukan dari database 
+  // echo "Akun tidak ditemukan";
   header("location:login.php");
-  exit(); 
+  exit(); // langsung akhiri eksekusi tanpa harus lanjut ke bawah
 } else {
-  if ($_POST['name'] == $row['plain_code']) {
+  if ($_POST['password'] == $row['plain_code']) {
     // echo "Anda berhasil login";
     header("location:daftarkandidatsemua.php");
   } else {
@@ -29,5 +53,3 @@ if ($result->num_rows == 0) {
     header("location:gagal_login.php");
   }
 }
-
-?>
