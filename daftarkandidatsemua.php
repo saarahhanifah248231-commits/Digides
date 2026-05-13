@@ -153,9 +153,8 @@
     <div class="sidebar">
         <div class="logo-area">
             <div class="logo-text">
-                <span class="digi">digi</span><span class="des">des</span>
+                <img src="logo.png" alt width="200">
             </div>
-            <span class="sub-logo">Digitalisasi Pendataan Kepala Desa</span>
         </div>
         
         <button class="nav-btn">Voting</button>
@@ -168,7 +167,7 @@
         <h1 class="title">Daftar Kandidat</h1>
 
         <div class="candidate-wrapper">
-            <div class="candidate-card">
+        <div class="candidate-card card-highlight">
                 <p class="candidate-name">Agus Setiawan</p>
                 <img src="fotokades.png" alt="Foto Agus" class="candidate-photo">
                 <button class="btn-detail">Detail</button>
@@ -180,7 +179,7 @@
                 <button class="btn-detail">Detail</button>
             </div>
 
-            <div class="candidate-card">
+            <div class="candidate-card card-highlight">
                 <p class="candidate-name">Panggih Wibowo</p>
                 <img src="fotokades3.png" alt="Foto Panggih" class="candidate-photo">
                 <button class="btn-detail">Detail</button>
