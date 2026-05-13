@@ -156,9 +156,8 @@
     <div class="sidebar">
         <div class="logo-area">
             <div class="logo-text">
-                <span class="digi">digi</span><span class="des">des</span>
+                <img src="logo.png" alt width="200">
             </div>
-            <span class="sub-logo">Digitalisasi Pendataan Kepala Desa</span>
         </div>
         
         <button class="nav-btn">Voting</button>
