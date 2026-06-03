@@ -146,7 +146,7 @@
 
         <div class="candidate-card">
             <div class="photo-section">
-                <h2>Agus Setiawan</h2>
+                <h2>Joko Darmanto</h2>
                 <img src="fotokades2.jpeg" alt="Foto Kandidat" class="candidate-photo">
             </div>
 
