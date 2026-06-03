@@ -164,8 +164,12 @@
         </div>
 
         <div class="button-group">
+            <form action="daftarkandidatsemua.php" method="post">
             <button class="btn-action">Kembali</button>
+            <form action="konfirmasipilihan.php" method="post">
             <button class="btn-action">Pilih Sekarang</button>
+            </from>
+            </from>
         </div>
     </div>
 
