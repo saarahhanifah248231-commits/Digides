@@ -165,25 +165,30 @@
 
     <div class="main-content">
         <h1 class="title">Daftar Kandidat</h1>
-
+         <form action="detailkandidat1.php" method="post">  
         <div class="candidate-wrapper">
-        <div class="candidate-card card-highlight">
+        <div class="candidate-card card-highlight"> 
                 <p class="candidate-name">Agus Setiawan</p>
                 <img src="fotokades.png" alt="Foto Agus" class="candidate-photo">
                 <button class="btn-detail">Detail</button>
             </div>
+          </from>
 
+            <form action="detailkandidat2.php" method="post">
             <div class="candidate-card card-highlight">
                 <p class="candidate-name">Joko Darmanto</p>
                 <img src="fotokades2.jpeg" alt="Foto Joko" class="candidate-photo">
                 <button class="btn-detail">Detail</button>
             </div>
+            </form>
 
+            <form action="detailkandidat3.php" method="post">
             <div class="candidate-card card-highlight">
                 <p class="candidate-name">Panggih Wibowo</p>
                 <img src="fotokades3.png" alt="Foto Panggih" class="candidate-photo">
                 <button class="btn-detail">Detail</button>
             </div>
+            </form>
         </div>
     </div>
 

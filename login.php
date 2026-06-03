@@ -5,6 +5,7 @@
 <title>Login Digides</title>
 <link rel="stylesheet" href="style.css">
 <style>
+    
     body{
         margin: 0;
         font-family: Arial, sans-serif;
@@ -103,9 +104,10 @@
     </div>
 
     <h1>Login E-voting Kepala <br> Desa Manggis</h1>
-
+<form action="daftarkandidatsemua.php" method="post">
     <div class="form">
         <form class="form" action="aksi login.php" method="POST">
+
         <div class="input-group">
             <label>Username</label>
             <i class="fa fa-user icon"></i>
@@ -121,7 +123,7 @@
         <button>
             <h2>Login<h2>
         </button>
-
+         </form>
     </div>
 
 </div>
